@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.3'
+version = '2.0'
 
 setup(name='Products.FamFamFam',
       version=version,
@@ -15,7 +15,7 @@ setup(name='Products.FamFamFam',
         ],
       keywords='Plone Icons FamFamFam',
       author='Raptus AG',
-      author_email='skaeser@raptus.com',
+      author_email='dev@raptus.com',
       url='http://plone.org/products/famfamfam',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
