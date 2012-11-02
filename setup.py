@@ -6,7 +6,7 @@ version = '2.0'
 setup(name='Products.FamFamFam',
       version=version,
       description="Collection of icons (FamFamFam) to replace the plone default ones",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='Products.FamFamFam',
       keywords='Plone Icons FamFamFam',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/Products.FamFamFam',
+      url='https://github.com/Raptus/Products.FamFamFam',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
